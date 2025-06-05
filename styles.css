@@ -4,3 +4,51 @@
     --white: #ffff;
     --red: #f41111;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira Condensed';
+}
+
+.main-container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.first-inner-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.first-inner-container > .nav-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 1rem;
+    background: var(--black);
+}
+
+.nav-container > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav-container > ul > li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-container > button {
+    padding: 0.5rem;
+    background: var(--red);
+    color: var(--white);
+}

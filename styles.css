@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Saira Condensed';
+    
 }
 
 .main-container {
@@ -26,6 +27,9 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background: var(--black);
+    
+   
 }
 
 .first-inner-container > .nav-container {
@@ -33,7 +37,7 @@ body {
     align-items: center;
     margin-left: auto;
     gap: 1rem;
-    background: var(--black);
+    
 }
 
 .nav-container > ul {
@@ -51,4 +55,78 @@ body {
     padding: 0.5rem;
     background: var(--red);
     color: var(--white);
+}
+
+span.champ {
+    color: var(--red);
+}
+
+.second-inner-container {
+    width: 100%;
+    max-width: 1120px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: url(./images/Boxer\ 1.jpg);
+    background-position: center center;
+    object-fit: cover;  
+    background-repeat: no-repeat;
+   
+}
+
+ h1 {
+    font-size: 5rem;
+    color: var(--white);
+    margin-left: 1rem;
+}
+
+.second-inner-container > .icon-container {
+    color: var(--white);
+    display: flex; 
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem;  
+    background: var(--white);
+}
+
+
+div.icon-image {
+    color: var(--black);
+    text-align: center;
+}
+
+div.icon-title   {
+  color:#f41111;
+  font-weight: 700;
+}
+
+.third-inner-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.image-container > img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.right-content {
+    width: 70%;
+}
+
+.content-paragraph {
+    width: 100%;
 }
